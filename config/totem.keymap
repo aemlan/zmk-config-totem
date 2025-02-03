@@ -97,9 +97,9 @@
 
         sym_layer {
             bindings = <
-        &kp EXCLAMATION  &kp DQT   &kp POUND  &kp PERCENT  &kp AMPERSAND    &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp LS(EQUAL)
+        &kp EXCLAMATION  &kp DQT   &kp POUND  &kp PERCENT  &kp AMPERSAND    &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp QUESTION
         &kp LSHFT        &kp BSPC  &trans     &trans       &trans           &trans     &trans                &trans                 &trans     &trans
-&trans  &trans           &trans    &trans     &trans       &trans           &trans     &trans                &trans                 &trans     &trans         &trans
+&trans  &trans           &trans    &trans     &trans       &trans           &trans     &trans                &trans                 &trans     &trans        &trans
                                    &trans     &trans       &trans           &trans     &trans                &trans
             >;
 
