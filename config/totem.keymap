@@ -14,7 +14,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
-#define SYM  2
+#define SYM  1
 
 &mt {
     quick-tap-ms = <100>;
