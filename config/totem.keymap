@@ -16,6 +16,8 @@
 #define BASE 0
 #define SYM  1
 
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -23,7 +25,6 @@
     tapping-term-ms = <170>;
 };
 
-#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 / {
         behaviors {
         as: auto_shift {
@@ -36,7 +37,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
-    
+
     combos {
         compatible = "zmk,combos";
 
