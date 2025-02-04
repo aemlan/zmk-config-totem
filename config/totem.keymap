@@ -14,11 +14,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
-#define NAV  1
 #define SYM  2
-#define ADJ  3
-#define TVP1 4
-#define TVP2 5
 
 &mt {
     quick-tap-ms = <100>;
@@ -66,7 +62,7 @@
 
             bindings = <
                   &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U      &kp I      &kp O    &kp P
-                  &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J      &kp K      &kp L    &kp O
+                  &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J      &kp K      &kp L    &kp NO_OE
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M      &kp COMMA  &kp DOT  &kp MINUS  &kp A
                                 &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE    &kp RET  &lt 0 ESC  &kp BSPC
             >;
