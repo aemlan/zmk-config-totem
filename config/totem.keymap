@@ -82,7 +82,7 @@
                                    &trans     &trans       &trans           &trans     &trans                &trans
             >;
 
-            label = "SYMBOLS";
+            label = "SYM";
         };
     };
 };
